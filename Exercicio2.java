@@ -10,7 +10,7 @@ public class Exercicio2 {
             numero = scanner1.nextInt();
             scanner1.close();
         } catch (Exception ex) {
-            System.out.println("Erro ao pegar numero no exercicio2():\n" + ex);
+            System.out.println("Erro ao pegar numero no Exercicio2:\n" + ex);
         }
         System.out.println("O numero informado foi:\n" + numero);
     }
